@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+.container {
+    /* border: 1px solid red; */
+    width: 90vw;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+}
+
+.top button {
+    width: 10vw;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 10vh;
+}
+
+.top button:hover {
+    cursor: pointer;
+}
+
+.input-container {
+    /* border: 1px solid blue; */
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inside-input {
+    /* border: 1px solid green; */
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.inside-input input {
+    width: 25vw;
+    height: 8vh;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.bottom p {
+    color: gray;
+}
+
+#bottomUI {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+
+#combine-div div {
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 1rem 0.5rem;
+    border: 5;
+    border-radius: 0.5rem;
+    height: 4rem;
+}
+
+#bottomUI div p {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+#combine-div button {
+    width: 10vw;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.8rem;
+    font-weight: 600;
+    font-size: 1rem;
+    /* margin-top: 10vh; */
+    border-radius: 2rem;
+    margin-top: 1rem;
+    position: relative;
+    left: 50rem;
+    bottom: 4.5rem;
+}
+
+#combine-div button:hover {
+    cursor: pointer;
+}
+/* 
+.userDiv {
+    border: 1px solid blue;
+} */

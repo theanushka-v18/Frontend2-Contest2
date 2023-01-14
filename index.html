@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend2 Contest2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>New Employees</h1>
+            <form>
+                <div class="input-container">
+                    <!-- for user name -->
+                    <div class="inside-input">
+                        <label for="userName">Enter Name</label>
+                        <input type="text" id="userName" value="">
+                    </div>
+    
+                    <!-- for user profession -->
+                    <div class="inside-input">
+                        <label for="userProfession">Enter Profession</label>
+                        <input type="text" id="userProfession" value="">
+                    </div>
+    
+                    <!-- for user age -->
+                    <div class="inside-input">
+                        <label for="userAge">Enter Age</label>
+                        <input type="number" id="userAge" value="">
+                    </div>
+                </div>
+                <button id="addbtn" onclick="addUser()">Add User</button>
+            </form>
+        </div>
+        <div class="error-success">
+            <p id="errorORsuccess"></p>
+        </div>
+        <div class="bottom">
+            <h2>Added employees</h2>
+            <p id="no.ofEmp">You have 0 Employees</p>
+            <div class="userDiv">
+                <div id="bottomUI">
+                    <div id="combine-div"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
